@@ -4,8 +4,6 @@ const Resultado = () => {
     const { resultado } = useClima()
     
     const { name, main } = resultado
-
-    console.log(resultado);
     
   return (
     <div className="contenedor clima">
