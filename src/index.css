@@ -29,7 +29,7 @@ main {
   max-width: 1200px;
 }
 .contenedor {
-  margin: 0 auto 2rem auto;
+  margin: 0 auto 0 auto;
   border-radius: .5rem;
   background-color: white;
   padding: 4rem;
@@ -86,4 +86,34 @@ form {
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+
+.clima {
+  display: grid;
+  align-content: space-around;
+  text-align: center;
+  margin: 0;
+}
+
+.clima p {
+ text-align: center;
+ margin: 0;
+}
+
+.clima > p:first-of-type {
+  font-size: 5rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.temp_min_max {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 1rem;
+}
+
+.clima span {
+  font-size: 50%;
+  position: absolute;
+  margin-top: 0.3%;
 }

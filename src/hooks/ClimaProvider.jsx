@@ -35,9 +35,7 @@ const ClimaProvider = ({children}) => {
 
             const { data: clima } = await axios(urlClima);
             setResultado(clima);
-
-
-
+            
         } catch (error) {
             console.log(error);
         }
