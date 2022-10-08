@@ -4,9 +4,9 @@ body {
   font-size: 1.6rem;
 }
 header {
-  background-color: #0ea5e9;
+  background-color: #0c468d;
   padding: 1.5rem;
-  border-bottom: 1rem solid #0284c7;
+  border-bottom: 1rem solid #093a76;
 }
 header h1 {
   text-align: center;
@@ -59,7 +59,7 @@ form {
 }
 
  input[type="submit"] {
-  background-color: #0ea5e9;
+  background-color: #0c468d;
   margin: 2rem auto 0 auto;
   display: block;
   padding: 1rem 3rem;
@@ -68,6 +68,7 @@ form {
   font-family: 'Inter', sans-serif;
   font-size: 1rem;
   border: none;
+  border-radius: 20px;
   width: 100%;
   transition: background-color .3s ease;
 }
@@ -75,6 +76,11 @@ form {
    input[type="submit"]  {
      max-width: 400px;
   }
+}
+@media (min-width: 467px) {
+  input[type="submit"]  {
+    max-width: 350px;
+ }
 }
  input[type="submit"]:hover {
   background-color: #0369a1;
@@ -96,11 +102,11 @@ form {
 }
 
 .spinner > div {
-  background-color: #0369a1;
-  height: 100%;
+  background-color: #0c468d;
+  height: 120%;
   width: 6px;
   display: inline-block;
-  
+  margin: 0 1px;
   -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
   animation: sk-stretchdelay 1.2s infinite ease-in-out;
 }

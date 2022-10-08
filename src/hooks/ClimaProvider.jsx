@@ -41,7 +41,9 @@ const ClimaProvider = ({children}) => {
         } catch (error) {
             setNoResultado('No hay resultados')
         } finally {
-            setCargando(false)
+            setTimeout(() => {
+                setCargando(false) 
+            }, 1000);
         }
     }
 
